@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Gafata&display=swap');
+
+:root {
+    --lightpink: #F9CFE6;
+    --pink: #EEA2CC;
+    --darkpink: #E78BBD;
+    --shadow: #CCCCCC;
+    --bg: #FDE4F1;
+}
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Gafata', sans-serif;
+    background: linear-gradient(var(--lightpink),var(--pink));
+}
+
+label {
+    width: 140px;
+}
+label button {
+    padding: 0px;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    box-shadow: none;
+    background-color: var(--pink);
+    font-size: 2em;
+}
+
+input {
+    margin: 8px 0 8px 8px;
+    padding: 8px;
+    font-family: 'Gafata', sans-serif;
+    font-size: 1em;
+    background-color: var(--lightpink);
+    border: 0;
+    border-radius: 0 10px 10px 0;
+    color: #666;
+}
+
+span {
+    color: #666;
+}
+
+button {
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-color: var(--darkpink);
+    color: #FFF;
+    font-family: 'Gafata', sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    box-shadow: 2px 2px 2px var(--shadow);
+    cursor: pointer;
+}
+button:hover {
+    box-shadow: none;
+}
+
+h1 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    color: var(--darkpink);
+}
+h2 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 1.2em;
+    color: var(--pink);
+    text-align: left;
+}
+
+main {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: var(--bg);
+}
+
+/* STYLE */
+.iconLeft,
+.iconRight {
+    position: relative;
+    top: 6px;
+    right: -15px;
+}
+.iconRight {
+    transform: rotate(270deg);
+}
+.large {
+    font-size: 2.4em;
+}
+.iconColor {
+    color: var(--lightpink);
+}
