@@ -11,7 +11,33 @@
 </head>
 <body>
     <main>
+        <section id="top">
+            <p>Health</p>
+            <h1>Calculate your BMI.</h1>
+        </section>
         <section id="form">
+            <div class="gender">
+                <h2>Gender</h2>
+                <select>
+                    <option value="Male" selected>Male</option>
+                    <option value="Female">Female</option>
+                </select>
+            </div>
+            <div class="age">
+                <h2>Age</h2>
+                <input type="number" min="1" max="120" value="22" />
+            </div>
+            <div class="height">
+                <h2>Height</h2>
+                <input id="height" type="number" min="100" max="220" value="170" /> <span>cm</span>
+            </div>
+            <div class="weight">
+                <h2>Weight</h2>
+                <input id="weight" type="number" min="20" max="300" value="60" /><span>kg</span>
+            </div>
+            <button onclick="calculate()">Calculate</button>
+        </section>
+        <!--<section id="form">
             <h1>Calculate your BMI</h1>
             <label id="w">
                 <h2>Weight</h2>
@@ -29,7 +55,7 @@
             </label>
             <button onclick="calculate()">Calculate</button>
             <span id="result"></span>
-        </section>
+        </section>-->
     </main>
 </body>
 </html>
