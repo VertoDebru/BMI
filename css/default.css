@@ -139,7 +139,7 @@ button:active {
 .grey p,
 .grey input,
 .grey select,
-.grey span {
+.grey #form > div > span {
     color: #FFF;
 }
 .blue {
@@ -148,7 +148,7 @@ button:active {
 .blue p,
 .blue input,
 .blue select,
-.blue span {
+.blue #form > div > span {
     color: #FFF;
 }
 .green {
@@ -157,7 +157,7 @@ button:active {
 .green p,
 .green input,
 .green select,
-.green span {
+.green #form > div > span {
     color: #AAA;
 }
 .yellow {
@@ -166,7 +166,7 @@ button:active {
 .yellow p,
 .yellow input,
 .yellow select,
-.yellow span {
+.yellow #form > div > span {
     color: #AAA;
 }
 .orange {
@@ -175,7 +175,7 @@ button:active {
 .orange p,
 .orange input,
 .orange select,
-.orange span {
+.orange #form > div > span {
     color: #FFF;
 }
 .red {
@@ -184,6 +184,6 @@ button:active {
 .red p,
 .red input,
 .red select,
-.red span {
+.red #form > div > span {
     color: #FFF;
 }
