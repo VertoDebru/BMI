@@ -5,11 +5,10 @@
     --result1: #87B2E3;
     --result2: #C1E999;
     --result3: #FAE487;
-    --result4: #87B2E3;
+    --result4: #FAB587;
     --result5: #F38A8A;
     --btnblue: #A6ADFF;
     --btngrey: #E5E5E5;
-    --shadow: #999999;
     --lightgrey: #BFBFBF;
     --grey: #666666;
     --bg: #F6F6F6;
@@ -29,6 +28,7 @@ h2 {
     margin-block-start: 0;
     margin-block-end: 0;
     text-transform: uppercase;
+    transition: color 3s;
 }
 
 p {
@@ -48,6 +48,10 @@ h2 {
     color: var(--grey);
 }
 
+span {
+    transition: color 3s;
+}
+
 main {
     display: flex;
     justify-content: center;
@@ -57,22 +61,30 @@ main {
     height: 100vh;
 }
 #top {
-    min-height: 100px;
+    min-height: 150px;
 }
 #form {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: flex-start;
+    height: 250px;
 }
 #form > div {
-    width: 130px;
+    width: 90px;
     height: 100px;
+    padding: 0 25px;
 }
 #form > div > span {
     font-family: 'Roboto', sans-serif;
     font-size: 0.8em;
     color: var(--lightgrey);
     text-transform: uppercase;
+}
+
+.gender,
+.height {
+    text-align: right;
 }
 
 /* FORMS */
@@ -89,6 +101,10 @@ input {
     text-transform: uppercase;
     font-size: 0.8em;
     color: var(--lightgrey);
+    transition: color 3s;
+}
+select option {
+    background-color: var(--bg);
 }
 input {
     width: 50px;
@@ -100,8 +116,8 @@ button {
     padding: 15px;
     border: 1px solid #BFBFBF;
     border-radius: 5px;
-    background: linear-gradient(0deg, var(--btnblue), var(--btngrey));
-    box-shadow: 2px 2px 2px var(--shadow);
+    background-image: linear-gradient(0deg, var(--btnblue), var(--btngrey));
+    box-shadow: 2px 2px 2px var(--grey);
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
     font-size: 0.8em;
@@ -110,4 +126,58 @@ button {
 }
 button:hover {
     box-shadow: none;
+}
+button:active {
+    margin-top: 2px;
+    margin-right: 2px;
+    box-shadow: inset 1px 1px 2px #666;
+}
+
+.grey {
+    background-color: var(--result0);
+}
+.grey p,
+.grey input,
+.grey select {
+    color: #FFF;
+}
+.blue {
+    background-color: var(--result1);
+}
+.blue p,
+.blue input,
+.blue select {
+    color: #FFF;
+}
+.green {
+    background-color: var(--result2);
+}
+.green p,
+.green input,
+.green select {
+    color: #AAA;
+}
+.yellow {
+    background-color: var(--result3);
+}
+.yellow p,
+.yellow input,
+.yellow select {
+    color: #AAA;
+}
+.orange {
+    background-color: var(--result4);
+}
+.orange p,
+.orange input,
+.orange select {
+    color: #FFF;
+}
+.red {
+    background-color: var(--result5);
+}
+.red p,
+.red input,
+.red select {
+    color: #FFF;
 }
