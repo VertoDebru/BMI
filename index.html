@@ -7,7 +7,7 @@
     <title> Calculate your BMI </title>
     <link rel="stylesheet" href="css/default.css" />
     <script src="https://kit.fontawesome.com/020a821970.js" crossorigin="anonymous"></script>
-    <script src="js/calculator.js"></script>
+    <script src="js/class/MyBmi.js"></script>
 </head>
 <body>
     <main>
@@ -15,47 +15,8 @@
             <p>Health</p>
             <h1>Calculate your BMI.</h1>
         </section>
-        <section id="form">
-            <div class="gender">
-                <h2>Gender</h2>
-                <select>
-                    <option value="Male" selected>Male</option>
-                    <option value="Female">Female</option>
-                </select>
-            </div>
-            <div class="age">
-                <h2>Age</h2>
-                <input type="number" min="1" max="120" value="22" />
-            </div>
-            <div class="height">
-                <h2>Height</h2>
-                <input id="height" type="number" min="100" max="220" value="170" /> <span>cm</span>
-            </div>
-            <div class="weight">
-                <h2>Weight</h2>
-                <input id="weight" type="number" min="20" max="300" value="60" /><span>kg</span>
-            </div>
-            <button onclick="calculate()">Calculate</button>
-        </section>
-        <!--<section id="form">
-            <h1>Calculate your BMI</h1>
-            <label id="w">
-                <h2>Weight</h2>
-                <i class="fas fa-weight large iconColor iconLeft"></i>
-                <input id="weight" type="number" min="10" max="750" value="50" placeholder="Poids" required>
-                <span>kg</span>
-                <button>-</button> <button>+</button>
-            </label>
-            <label id="h">
-                <h2>Height</h2>
-                <i class="fas fa-ruler-combined large iconColor iconRight"></i>
-                <input id="height" type="number" min="100" max="250" value="160" placeholder="Taille" required>
-                <span>cm</span>
-                <button>-</button> <button>+</button>
-            </label>
-            <button onclick="calculate()">Calculate</button>
-            <span id="result"></span>
-        </section>-->
+        <section id="form"></section>
     </main>
+    <script src="js/calculator.js"></script>
 </body>
 </html>
