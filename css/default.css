@@ -136,22 +136,6 @@ button:active {
 .grey {
     background-color: var(--result0);
 }
-<<<<<<< HEAD
-.blue {
-    background-color: var(--result1);
-}
-.green {
-    background-color: var(--result2);
-}
-.yellow {
-    background-color: var(--result3);
-}
-.orange {
-    background-color: var(--result4);
-}
-.red {
-    background-color: var(--result5);
-=======
 .grey p,
 .grey input,
 .grey select {
@@ -196,5 +180,4 @@ button:active {
 .red input,
 .red select {
     color: #FFF;
->>>>>>> Dev
 }
