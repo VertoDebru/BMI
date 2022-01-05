@@ -136,6 +136,7 @@ button:active {
 .grey {
     background-color: var(--result0);
 }
+<<<<<<< HEAD
 .blue {
     background-color: var(--result1);
 }
@@ -150,4 +151,50 @@ button:active {
 }
 .red {
     background-color: var(--result5);
+=======
+.grey p,
+.grey input,
+.grey select {
+    color: #FFF;
+}
+.blue {
+    background-color: var(--result1);
+}
+.blue p,
+.blue input,
+.blue select {
+    color: #FFF;
+}
+.green {
+    background-color: var(--result2);
+}
+.green p,
+.green input,
+.green select {
+    color: #AAA;
+}
+.yellow {
+    background-color: var(--result3);
+}
+.yellow p,
+.yellow input,
+.yellow select {
+    color: #AAA;
+}
+.orange {
+    background-color: var(--result4);
+}
+.orange p,
+.orange input,
+.orange select {
+    color: #FFF;
+}
+.red {
+    background-color: var(--result5);
+}
+.red p,
+.red input,
+.red select {
+    color: #FFF;
+>>>>>>> Dev
 }
