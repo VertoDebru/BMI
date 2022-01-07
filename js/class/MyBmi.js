@@ -8,9 +8,7 @@ class Mybmi {
     // Setting up calculator.
     setBMI() {
         const mySection = document.getElementById("form");
-        mySection.innerHTML = `<div class="gender"><h2>Gender</h2><select><option value="Male" selected>Male</option><option value="Female">Female</option></select></div>
-        <div class="age"><h2>Age</h2><input type="number" min="1" max="120" value="22" /></div>
-        <div class="height"><h2>Height</h2><input id="height" type="number" min="100" max="220" value="170" /><span>cm</span></div>
+        mySection.innerHTML = `<div class="height"><h2>Height</h2><input id="height" type="number" min="100" max="220" value="170" /><span>cm</span></div>
         <div class="weight"><h2>Weight</h2><input id="weight" type="number" min="20" max="300" value="60" /><span>kg</span></div>`;
         // Create button for calculate BMI.
         let btnCalculate = document.createElement("button");
